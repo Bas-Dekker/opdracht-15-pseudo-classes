@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main a {
+  text-decoration: none;
+  padding: 2em;
+}
+
+main a:hover {
+  font-weight: bold;
+  color: lightblue;
+}
+
+main a:active {
+  font-style: italic;
+  color: red;
+}
+
+main a:visited {
+  color: yellow;
+}
+
+main input:focus {
+  color: green;
+  font-size: 20px;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2em;
+}
+
+nav li:first-child {
+  padding-left: 0px;
+}
+
+nav ul {
+  background-color: rgba(38, 0, 255, 0.705);
+}
+
+nav li:hover {
+  background-color: lightskyblue;
+}
+
+.current-page {
+  background-color: rgb(78, 92, 122);
+}
+
+nav input:focus {
+  border: 4px solid aqua;
+  font-size: 20px;
+}
